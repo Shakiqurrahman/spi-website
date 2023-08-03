@@ -1,0 +1,22 @@
+.location {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location .location-img {
+    margin-top: 20px;
+}
+
+.location .address{
+    font-size: 25px;
+    margin-top: 20px;
+    color: #656565;
+}
+
+@media (576px >= width){
+  .location .location-img img{
+    width: 100%;
+  }
+}

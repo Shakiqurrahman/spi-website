@@ -1,0 +1,52 @@
+.department {
+    padding-top: 80px;
+}
+
+.department .dept-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 100px;
+    margin-top: 50px;
+}
+
+.department .dept-box .img-box {
+    transition: .3s;
+}
+
+.department .dept-box .img-box:hover {
+    transform: scale(1.05);
+}
+
+.department .dept-box .img-box img {
+    width: 100%;
+
+}
+
+.dept-details {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 80px;
+}
+
+.dept-details:nth-child(2n+1){
+    flex-direction: row;
+}
+
+.dept-details .details {
+    margin-top: 140px;
+}
+
+.dept-details .details .title {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.dept-details .details p {
+    font-size: 18px;
+    color: #656565;
+}
+
+.dept-details .img-box {
+    margin-top: 120px;
+}

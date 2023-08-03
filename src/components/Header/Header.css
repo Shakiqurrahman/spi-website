@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: #3e804b;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header .logo {
+  width: 63px;
+}
+
+.header ul {
+  display: flex;
+}
+
+.header .navbar ul li {
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 50px;
+  text-transform: uppercase;
+  position: relative;
+
+}
+
+.header .navbar ul li::after{
+  content: '';
+  position: absolute;
+  background-color: white;
+  height: 2.5px;
+  width: 0;
+  left: 0;
+  bottom: -3px;
+  transition: .3s;
+}
+
+.header .navbar ul li:hover::after{
+  width: 100%;
+}
+.header .navbar ul li a {
+  color: white;
+  font-family: "Hind Siliguri", sans-serif;
+}
+.header .login-btn a{
+  color: #3e804b;
+  background-color: white;
+  padding: 5px 15px;
+  font-size: 18px;
+  border-radius: 25px;
+  border: 2px solid transparent;
+  transition: .3s;
+}
+
+.header .login-btn:hover a{
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  max-width: 100%;
+}
+body {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.orange-text {
+  color: #ff8e0d;
+}
+.green-color {
+  color: #3e804b;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+.w-btn{
+  color: #ff8e0d;
+  background-color: transparent;
+  border: 2px solid #ff8e0d;
+  border-radius: 50px;
+  padding: 10px 25px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  transition: .3s;
+}
+
+.w-btn .icon{
+  margin-left: 10px;
+}
+
+.w-btn:hover{
+  background-color: #ff8e0d;
+  color: white;
+}
+
+.title{
+  font-size: 35px;
+  color: #656565;
+  font-weight: 400;
+}
+.page-title{
+  font-size: 40px;
+  color: #656565;
+  font-weight: 500;
+  margin: 30px 0;
+  text-align: center;
+}
+
+
+.container {
+  padding: 0 5rem;
+  margin-bottom: 40px;
+}
+.active{
+  position: relative;
+}
+.active::after {
+  content: '';
+  position: absolute;
+  background-color: white;
+  height: 2.5px;
+  width: 100%;
+  left: 0;
+  bottom: -3px;
+}
+
+@media (576px >= width) {
+  .container {
+    padding: 0 15px;
+  }
+  .title{
+    font-size: 30px;
+  }
+  .w-btn{
+    padding: 8px 15px;
+  }
+}

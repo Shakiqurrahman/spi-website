@@ -1,0 +1,82 @@
+.home-page .welcome-page {
+  background-image: url("/images/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  /* height: calc(100vh - 80px); */
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home-page .welcome-page h4 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 90px;
+  line-height: 0.6;
+}
+
+.home-page .welcome-page h2 {
+  color: #ff8e0d;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+.home-page .welcome-page h2 span{
+  color: #d2d0d0;
+}
+
+.home-page .welcome-page .search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #ffffff7d;
+  border-radius: 25px;
+  width: 40rem;
+  height: 45px;
+  margin-top: 15px;
+}
+
+.home-page .welcome-page .search-box input {
+  background: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  width: 40rem;
+  color: black;
+}
+
+.home-page .welcome-page .search-box input::placeholder{
+  color: black;
+  font-size: 18px;
+}
+
+.home-page .welcome-page .search-box .search-icon {
+  font-size: 20px;
+  background-color: #ff8e0d;
+  color: white;
+  width: 50px;
+  height: 45px;
+  padding: 5px;
+  position: absolute;
+  right: -5px;
+  border-radius: 50%;
+}
+
+@media (576px >= width) {
+  .home-page .welcome-page h4{
+    font-size: 2rem;
+  }
+
+  .home-page .welcome-page h2{
+    margin-top: 10px;
+    font-size: 2rem;
+  }
+
+  .home-page .welcome-page .search-box {
+    width: 25rem;
+  }
+}

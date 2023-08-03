@@ -1,0 +1,73 @@
+.wrapper {
+  background-image: url("/images/shape1.svg");
+  background-repeat: no-repeat;
+  background-position: 1115px 15px;
+  background-size: 300px;
+}
+.principal-message {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.principal-message .content {
+  width: 70%;
+  margin-top: 40px;
+}
+
+.principal-message .content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #656565;
+}
+.principal-message .content .desc {
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 10px;
+  color: #656565;
+}
+
+.principal-message .content .green-color {
+  font-size: 22px;
+}
+
+.principal-message .thumbnail {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.principal-message .thumbnail img {
+  width: 100%;
+}
+.principal-message .thumbnail .principal {
+  background-color: #3e804b;
+  display: inline-block;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+@media (576px >= width){
+  .principal-message{
+    margin-top: 0;
+    flex-direction: column;
+  }
+  .principal-message .content{
+    width: 100%;
+  }
+  .principal-message .content h2{
+    font-size: 2rem;
+  }
+  .principal-message .thumbnail{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
