@@ -11,51 +11,181 @@
 
 .header .logo {
   width: 63px;
+  display: flex;
+  align-items: center;
 }
 
-.header ul {
+.header .nav-links {
   display: flex;
 }
 
-.header .navbar ul li {
+.header .navbar .nav-links li {
   font-size: 18px;
   font-weight: 400;
   margin-right: 50px;
   text-transform: uppercase;
   position: relative;
-
 }
 
-.header .navbar ul li::after{
-  content: '';
+.header .navbar ul li::after {
+  content: "";
   position: absolute;
   background-color: white;
   height: 2.5px;
   width: 0;
   left: 0;
   bottom: -3px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.header .navbar ul li:hover::after{
+.header .navbar ul li:hover::after {
   width: 100%;
 }
 .header .navbar ul li a {
   color: white;
   font-family: "Hind Siliguri", sans-serif;
 }
-.header .login-btn a{
+.header .login-btn a {
   color: #3e804b;
   background-color: white;
   padding: 5px 15px;
   font-size: 18px;
   border-radius: 25px;
   border: 2px solid transparent;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.header .login-btn:hover a{
+.header .login-btn:hover a {
   background-color: transparent;
   border: 2px solid white;
   color: white;
+}
+
+/* hamburger menu */
+
+.hamburger-box {
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hamburger {
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(255, 101, 47, 0.2);
+  transition: all 0.5s ease-in-out;
+  display: none;
+}
+
+.hamburger::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(-10px);
+}
+
+.hamburger::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(10px);
+}
+.active-hamburger {
+  width: 30px;
+  height: 3px;
+  background: transparent;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(255, 101, 47, 0.2);
+  transition: all 0.5s ease-in-out;
+  transform: translateX(-50px);
+}
+
+.active-hamburger::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  transform: rotate(45deg) translate(35px, -35px);
+}
+
+.active-hamburger::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  transform: rotate(-45deg) translate(35px, 35px);
+}
+
+@media (576px >= width) {
+  .header {
+    height: 61px;
+  }
+
+  .header .logo img {
+    width: 75%;
+  }
+
+  .side-nav {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    right: 0;
+    top: 61px;
+    background: #3e804b;
+    transform: translateX(50%);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .side-nav li {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 20px 30px 5px;
+  }
+
+  .header .nav-links {
+    position: absolute;
+    flex-direction: column;
+    top: 61px;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background: #3e804b;
+    transform: translateX(100%);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .header .nav-links li {
+    padding: 20px 30px 5px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .header .login-btn a{
+    position: relative;
+    right: 40px;
+    font-size: 15px;
+    padding: 3px 10px;
+  }
 }

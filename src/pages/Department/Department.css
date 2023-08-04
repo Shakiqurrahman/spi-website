@@ -50,3 +50,40 @@
 .dept-details .img-box {
     margin-top: 120px;
 }
+
+@media (576px >= width) {
+    .department {
+        padding-top: 40px;
+    }
+
+    .department .dept-box {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .dept-details .details{
+        margin-top: 0;
+    }
+
+    .dept-details,
+    .dept-details:nth-child(2n+1){
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .dept-details .details .title {
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .dept-details .img-box{
+        margin-top: 0;
+    }
+
+    .dept-details .img-box img{
+        width: 100%;
+    }
+
+}

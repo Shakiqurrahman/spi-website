@@ -1,25 +1,30 @@
 .location {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .location .location-img {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
-.location .address{
-    font-size: 25px;
-    margin-top: 20px;
-    color: #656565;
+.location .address {
+  font-size: 25px;
+  margin-top: 20px;
+  color: #656565;
 }
 
-@media (576px >= width){
-  .location .location-img img{
+@media (576px >= width) {
+  .location {
+    margin-top: 40px;
+  }
+
+  .location .location-img img {
     width: 100%;
   }
-  .location .address{
+
+  .location .address {
     font-size: 20px;
   }
 }

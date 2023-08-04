@@ -89,6 +89,9 @@ button {
   .title{
     font-size: 30px;
   }
+  .page-title {
+    font-size: 30px;
+  }
   .w-btn{
     padding: 8px 15px;
   }

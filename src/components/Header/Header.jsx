@@ -4,13 +4,18 @@ import "./Header.css";
 
 const Header = () => {
   const [active, setActive] = useState(false);
+
   return (
     <header className="header">
       <div className="logo">
         <img src="images/sylhet-polytechnic-institute.png" alt="" />
       </div>
+
+      <div className="hamburger-box" onClick={() => setActive(!active)}>
+        <div className={active ? "active-hamburger" : "hamburger"}></div>
+      </div>
       <nav className="navbar">
-        <ul>
+        <ul className={active ? "side-nav" : " nav-links"}>
           <li>
             <NavLink to="/">Home</NavLink>
           </li>

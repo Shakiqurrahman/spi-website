@@ -1,0 +1,107 @@
+.about .about-banner {
+  background-image: url("/images/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 520px;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about .about-banner h2 {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.about .about-banner p {
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+}
+
+.about .mission,
+.about .vision {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.about .mission-vision .content {
+  width: 50%;
+}
+
+.about .mission-vision .content p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.about .mission-vision .content .orange-text {
+  font-size: 25px;
+  font-weight: 500;
+}
+.about .mission-vision .mission .img-box {
+  margin-left: 120px;
+  margin-top: 20px;
+  width: 30%;
+}
+
+.about .mission-vision .mission .img-box img {
+  width: 100%;
+}
+
+.about .mission-vision .vision .img-box {
+  width: 30%;
+  margin: 0 120px;
+}
+
+.about .mission-vision .vision .img-box img {
+  width: 100%;
+}
+
+.about .diagram {
+  padding: 0 20%;
+}
+
+.about .diagram img {
+  width: 100%;
+}
+
+@media (576px >= width) {
+
+    .about .about-banner {
+        height: 300px;
+        width: 100%;
+    }
+
+    .about .about-banner h2 {
+      font-size: 6vw;  
+    }
+
+    .about .about-banner p{
+        font-size: 4vw;
+    }
+
+  .about .mission,
+  .about .vision {
+    flex-direction: column;
+  }
+  .about .mission-vision .content {
+    width: 100%;
+  }
+  .about .mission-vision .mission .img-box {
+    width: 100%;
+    margin-left: 0;
+  }
+  .about .mission-vision .vision .img-box {
+    width: 100%;
+  }
+  .about .diagram {
+    padding: 0 20px;
+  }
+}
