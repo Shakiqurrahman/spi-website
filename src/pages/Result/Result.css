@@ -20,6 +20,7 @@
 .result .content .w-btn {
     margin-top: 60px;
     font-weight: 600;
+    margin-bottom: 40px;
 }
 
 @media (576px >= width) {

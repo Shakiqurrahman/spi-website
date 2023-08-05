@@ -2,6 +2,7 @@ import React from "react";
 import { ImFolderDownload } from "react-icons/im";
 import { Link } from "react-router-dom";
 import "./Facilities.css";
+import PhotoGallery from '../../components/PhotoGallery/PhotoGallery'
 
 const Facilities = () => {
   return (
@@ -66,6 +67,7 @@ const Facilities = () => {
           </p>
         </div>
       </div>
+      <PhotoGallery />
     </section>
   );
 };
