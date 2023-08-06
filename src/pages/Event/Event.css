@@ -3,9 +3,13 @@
 }
 
 .event .cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  display: flex;
+  gap: 40px 60px;
   margin-top: 40px;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .event .cards .event-card {

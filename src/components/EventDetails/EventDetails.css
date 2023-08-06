@@ -1,0 +1,96 @@
+.event-details {
+  padding-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 40px;
+}
+
+.event-details .hero {
+  display: flex;
+  align-items: center;
+  gap: 0 130px;
+  margin-bottom: 30px;
+}
+
+.entry-fee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event-details .hero .fee-btn {
+  width: 220px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #3e804b;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.event-details .hero .entry-btn {
+    margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 5px 30px;
+  border: 2px solid #3e804b;
+  transition: .3s;
+}
+
+.event-details .hero .entry-btn:hover {
+    background-color: #3e804b;
+    color: white;
+}
+
+.event-details .card {
+  position: relative;
+}
+
+.event-details .card .card-img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+  /* height: 400px; */
+}
+
+.card .card-title {
+  background-color: #3e804b;
+  width: 100%;
+  /* height: 100px; */
+  color: white;
+  position: absolute;
+  bottom: 0px;
+}
+
+.card .card-title h2 {
+  font-size: 26px;
+  line-height: 1.4;
+  padding: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.event-details p {
+  font-size: 18px;
+  text-align: justify;
+  color: #656565;
+}
+
+
+@media (576px >= width){
+    .event-details .hero {
+        width: 100%;
+        gap: 40px;
+        flex-direction: column;
+    }
+    .event-details .card{
+        width: 100%;
+    }
+}

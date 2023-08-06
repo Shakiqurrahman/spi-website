@@ -9,6 +9,7 @@ import Department from "./pages/Department/Department";
 import Result from "./pages/Result/Result";
 import About from "./pages/About/About";
 import Facilities from "./pages/Facilities/Facilities";
+import EventDetails from "./components/EventDetails/EventDetails";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
         path: '/facilities',
         element: <Facilities />
       },
+      {
+        path: "/event-details/:id",
+        element: <EventDetails />
+      }
     ],
   },
   {
