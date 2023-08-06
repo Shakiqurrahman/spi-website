@@ -26,7 +26,7 @@ import slide_image_9 from "/images/facilities/photo section/photography (9).png"
 function App() {
   return (
     <div className="container-s">
-      <h1 className="heading">Photo Gallery</h1>
+      <h1 className="heading">Photo <span className="orange-text">Gallery</span></h1>
       <Swiper
         effect={"coverflow"}
         grabCursor={true}

@@ -26,7 +26,7 @@ const Home = () => {
         <div className="feature-img">
           <div className="feature-card">
             <div className="card-img">
-              <img src="/images/event page/event pic2.jpg" alt="event pic" />
+              <Link to='/event-details/1'><img src="/images/event page/event pic2.jpg" alt="event pic" /></Link>
             </div>
           <div className="card-title">
             <h2>International Mother Language Day</h2>
@@ -34,7 +34,7 @@ const Home = () => {
           </div> 
           <div className="feature-card">
             <div className="card-img">
-              <img src="/images/event page/event pic.jpg" alt="event pic" />
+              <Link to='/event-details/2'><img src="/images/event page/event pic.jpg" alt="event pic" /></Link>
             </div>
           <div className="card-title">
             <h2>Robotics Competition</h2>
@@ -42,7 +42,7 @@ const Home = () => {
           </div> 
           <div className="feature-card">
             <div className="card-img">
-              <img src="/images/event page/event pic1.jpg" alt="event pic" />
+              <Link to='/event-details/3'><img src="/images/event page/event pic1.jpg" alt="event pic" /></Link>
             </div>
           <div className="card-title">
             <h2>Web Design Race</h2>
