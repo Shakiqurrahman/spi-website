@@ -91,32 +91,32 @@ export const EventData = [
     {
         id : 4,
         img: '/images/event page/event pic3.jpg',
-        title : 'Robotics Competision'
+        title : 'Electric Week 2022'
     },
     {
         id : 5,
         img: '/images/event page/event pic4.jpg',
-        title : 'Robotics Competision'
+        title : 'Graphic Race'
     },
     {
         id : 6,
         img: '/images/event page/event pic5.jpg',
-        title : 'Robotics Competision'
+        title : 'Photography Contest 2022'
     },
     {
         id : 7,
         img: '/images/event page/event pic6.jpg',
-        title : 'Robotics Competision'
+        title : 'English Club competition'
     },
     {
         id : 8,
         img: '/images/event page/event pic7.jpg',
-        title : 'Robotics Competision'
+        title : 'Logo Design Race'
     },
     {
         id : 9,
         img: '/images/event page/event pic8.jpg',
-        title : 'Robotics Competision'
+        title : 'UI wireframe Event'
     },
 ]
 
