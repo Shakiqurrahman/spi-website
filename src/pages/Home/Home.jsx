@@ -24,15 +24,30 @@ const Home = () => {
           </Link>
         </div>
         <div className="feature-img">
-          <Link to="/event">
-            <img src="/images/home page/event pic 1.png" alt="" />
-          </Link>
-          <Link to="/event">
-            <img src="/images/home page/event pic 2.png" alt="" />
-          </Link>
-          <Link to="/event">
-            <img src="/images/home page/event pic 3.png" alt="" />
-          </Link>
+          <div className="feature-card">
+            <div className="card-img">
+              <img src="/images/event page/event pic2.jpg" alt="event pic" />
+            </div>
+          <div className="card-title">
+            <h2>International Mother Language Day</h2>
+            </div>
+          </div> 
+          <div className="feature-card">
+            <div className="card-img">
+              <img src="/images/event page/event pic.jpg" alt="event pic" />
+            </div>
+          <div className="card-title">
+            <h2>Robotics Compitition</h2>
+            </div>
+          </div> 
+          <div className="feature-card">
+            <div className="card-img">
+              <img src="/images/event page/event pic1.jpg" alt="event pic" />
+            </div>
+          <div className="card-title">
+            <h2>Web Design Race</h2>
+            </div>
+          </div> 
         </div>
       </section>
 

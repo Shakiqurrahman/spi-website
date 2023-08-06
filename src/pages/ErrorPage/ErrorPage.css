@@ -2,15 +2,16 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
 .error-title{
-    font-size: 5rem;
+    font-size: 4rem;
+    color: #0989ff;
 }
 .error-page p{
     font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 
 .error-page .error-btn{
@@ -18,18 +19,26 @@
     background-color: #0989ff;
     color: white;
     padding: 10px 20px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-top: 10px;
     border-radius: 10px;
-    border: none;
+    border: 2px solid transparent;
     display: flex;
     align-items: center;
+    transition: .3s;
+}
+
+.error-page .error-btn:hover {
+    background-color: #fff;
+    color: #0989ff;
+    border: 2px solid #0989ff;
 }
 
 .error-btn .arrow-icon{
     margin-left: 10px;
+    font-size: 30px;
 }
 
 .error-page img{
-    width: 30%;
+    width: 40%;
 }
