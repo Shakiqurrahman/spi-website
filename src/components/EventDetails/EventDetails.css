@@ -90,7 +90,7 @@
         gap: 40px;
         flex-direction: column;
     }
-    .event-details .card{
-        width: 100%;
+    .event-details .card .card-img  img{
+      width: 100%;
     }
 }
