@@ -37,7 +37,7 @@ const Home = () => {
               <img src="/images/event page/event pic.jpg" alt="event pic" />
             </div>
           <div className="card-title">
-            <h2>Robotics Compitition</h2>
+            <h2>Robotics Competition</h2>
             </div>
           </div> 
           <div className="feature-card">
@@ -97,13 +97,13 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <div className="greeting container">
+      {/* <div className="greeting container">
         <h2 className="title">
           <span className="orange-text">Contact </span>Us
         </h2>
         <p>You Can find or  rich out to us for this method</p>
         <p className="orange-text">Thank You!</p>
-      </div>
+      </div> */}
     </main>
   );
 };

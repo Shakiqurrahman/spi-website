@@ -1,5 +1,3 @@
-// event page data 
-
 // department page data 
 
 const DeptData = [
@@ -68,6 +66,57 @@ const DeptData = [
         Energy/Transportation and the importance these areas have to the 
         world, the economy, our community and our families.`,
         img : '/images/department page/power 1.png'
+    },
+]
+
+// event page data 
+
+
+export const EventData = [
+    {
+        id : 1,
+        img: '/images/event page/event pic2.jpg',
+        title : 'International Mother Language Day'
+    },
+    {
+        id : 2,
+        img: '/images/event page/event pic.jpg',
+        title : 'Robotics Competision'
+    },
+    {
+        id : 3,
+        img: '/images/event page/event pic1.jpg',
+        title : 'Web Design Race'
+    },
+    {
+        id : 4,
+        img: '/images/event page/event pic3.jpg',
+        title : 'Robotics Competision'
+    },
+    {
+        id : 5,
+        img: '/images/event page/event pic4.jpg',
+        title : 'Robotics Competision'
+    },
+    {
+        id : 6,
+        img: '/images/event page/event pic5.jpg',
+        title : 'Robotics Competision'
+    },
+    {
+        id : 7,
+        img: '/images/event page/event pic6.jpg',
+        title : 'Robotics Competision'
+    },
+    {
+        id : 8,
+        img: '/images/event page/event pic7.jpg',
+        title : 'Robotics Competision'
+    },
+    {
+        id : 9,
+        img: '/images/event page/event pic8.jpg',
+        title : 'Robotics Competision'
     },
 ]
 

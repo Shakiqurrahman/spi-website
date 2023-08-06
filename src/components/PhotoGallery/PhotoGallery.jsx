@@ -87,10 +87,10 @@ function App() {
 
         <div className="slider-controler">
           <div className="swiper-button-prev slider-arrow">
-            <BsArrowLeftCircle size={30} color="red"/>
+            <BsArrowLeftCircle size={30} color="#3e804b"/>
           </div>
           <div className="swiper-button-next slider-arrow">
-            <BsArrowRightCircle size={30} color="red"/>
+            <BsArrowRightCircle size={30} color="#3e804b"/>
           </div>
           <div className="swiper-pagination"></div>
         </div>
